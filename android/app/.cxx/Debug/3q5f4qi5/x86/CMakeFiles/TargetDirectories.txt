@@ -1,0 +1,2 @@
+/Users/iongroupspvtltd/StudioProjects/cookie_clicker/android/app/.cxx/Debug/3q5f4qi5/x86/CMakeFiles/edit_cache.dir
+/Users/iongroupspvtltd/StudioProjects/cookie_clicker/android/app/.cxx/Debug/3q5f4qi5/x86/CMakeFiles/rebuild_cache.dir

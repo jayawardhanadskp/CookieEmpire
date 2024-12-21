@@ -1,0 +1,49 @@
+<!-- res/layout/cookie_empire_widget.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/widget_background">
+
+    <!-- Cookie Image -->
+    <ImageView
+        android:id="@+id/cookie_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_cookie" />
+
+    <!-- Cookie count -->
+    <TextView
+        android:id="@+id/cookie_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cookie_image"
+        android:layout_centerHorizontal="true"
+        android:text="12"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <!-- Production rate -->
+    <TextView
+        android:id="@+id/production_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cookie_count"
+        android:layout_centerHorizontal="true"
+        android:text="0.0/s"
+        android:textSize="14sp"
+        android:textColor="@android:color/white" />
+
+    <!-- Action Button -->
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap"
+        android:layout_below="@id/production_rate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/selectableItemBackground" />
+</RelativeLayout>
